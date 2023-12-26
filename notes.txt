@@ -1,0 +1,13 @@
+conda env list
+python -m venv cuda or .
+cuda\Scripts\activate or Scripts\activate
+
+pip install numpy matplotlib numpy pylzma ipykernel jupyter torch
+
+NOTE: LZMA is a compression algorithm that offers high 
+NOTE: pytorch is ML model building library
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+Use a virtual env in jupyter:
+python -m ipykernel install --user --name=GPT-model-from-scratch --display-name "cuda-gpt"
